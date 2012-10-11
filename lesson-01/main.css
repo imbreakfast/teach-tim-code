@@ -1,0 +1,21 @@
+h1 {
+  /* comment */
+  color: red;
+  font-family: sans-serif;
+}
+
+#special-paragraph {
+  color: green;
+}
+
+.blue-text {
+  background-color: blue;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.grey-box {
+  background-color: grey;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+}
