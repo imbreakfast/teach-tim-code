@@ -1,21 +1,43 @@
+/*
+ * CSS
+ * * CSS == "Cascading Stylesheet"
+ * * This stylesheet is linked to `index.html` through the LINK element
+ */
+
+
 h1 {
-  /* comment */
   color: red;
-  font-family: sans-serif;
+
+  /*
+   * FONT-FAMILY
+   * * Declares one or more fonts left-to-right
+   */
+  font-family: Helvetica, Arial, sans-serif; /* Read: "Try Helvetica; if no Helvetica, then try Arial, etc." */
 }
 
-#special-paragraph {
+/*
+ * IDS
+ * * Style a single element with the attribute `id="foo"`
+ */
+
+#special-element {
   color: green;
 }
 
-.blue-text {
+/* 
+ * CLASSES
+ * * Style elements with the attribute(s) `class="foo bar"`
+ * * Can be applied to multiple elements
+ */
+
+.blue-text { 
   background-color: blue;
   color: white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black; /* text-shadow: offset from left, offset from top, spread, color */
 }
 
 .grey-box {
-  background-color: grey;
-  border: 1px solid black;
-  box-shadow: 2px 2px 2px black;
+  background-color: grey;         /* "gray" works, too */
+  border: 1px solid black;        /* border: width, type, color */
+  box-shadow: 2px 4px 2px black;  /* box-shadow: offset from left, offset from top, spread, color */
 }

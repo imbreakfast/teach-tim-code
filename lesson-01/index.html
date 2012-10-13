@@ -1,28 +1,66 @@
 <!doctype html>
+<!--
+See https://developer.mozilla.org/en-US/docs/HTML/Introduction for a brief description of the basics of HTML documents.
+-->
 <html>
   <head>
+    <!--
+    META 
+    * Declares properties of an HTML document.
+    * Here we are declaring the character set our HTML document uses.
+    -->
     <meta charset="utf-8">
+
+    <!-- 
+    TITLE
+    * TITLE gets printed in the browser window/tab.
+    * The TITLE element is required in any HTML document.
+    -->
     <title>A sample webpage</title>
+
+    <!--
+    LINK
+    * Used to link external files to an HTML document.
+    * In this case, we are linking a Cascading Stylesheet that will providing styling to the document.
+    * Note that if there isn't a stylesheet, the document defaults to the styles provided by a web browser.
+    -->
     <link rel="stylesheet" href="main.css">
+
   </head>
   <body>
-    <h1>Part 1</h1>
-    <p class="blue-text">This is a short sentence.</p>
-    <p id="special-paragraph">This is another short sentence.</p>
-    <!-- a note -->
 
-    <h2>Part 1.1</h2>
-    <p class="blue-text">This is a short sentence.</p>
+    <!--
+    COMMENTS
+    * Comments aren't rendered by a web browser.
+    * Comments aren't private, just invisible. They can be easily viewed in source code.
+    -->
 
+    <!--
+    HEADERS
+    * Creates outline structure for our content.
+    * Limited to h1, h2, h3, h4, h5, h6.
+    -->
+    <h1>Section 1</h1>
+    <p class="blue-text">This is a short paragraph with the attribute `class="blue-text"`.</p>
+    <p id="special-element">This is another short paragraph with the attribute `id="special-element"`.</p>
+
+    <h2>Section 1.1</h2>
+    <p class="blue-text">This is another short paragraph with the attribute `class="blue-text"`. Classes can be applied to multiple elements.</p>
+
+    <!--
+    DIVS
+    * Elements used to contain and/or style groups of elements
+    -->
     <div class="grey-box">
-      <h1>Part 2</h1>
-      <p>This is a short sentence.</p>
-      <p>This is another short sentence.</p>
-      <!-- a note -->
+      <h1>Section 2</h1>
+      <p>This is a short paragraph in Section 2.</p>
+      <p>This is another short paragraph in Section 2.</p>
 
-      <h2>Part 2.1</h2>
-      <p>This is a short sentence.</p>
+      <h2>Section 2.1</h2>
+      <p>This is a short paragraph in Section 2.1. Note that Section 2.1 is an H2 element and is logically nested underneath the nearest H1 ("Section 2").</p>
     </div>
+
+    <!-- White space and comments are your friend -->
 
   </body>
 </html>
