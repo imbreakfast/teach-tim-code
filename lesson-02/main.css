@@ -1,0 +1,27 @@
+#navigation {
+  border-bottom: 1px dotted grey;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+#navigation a {
+  color: purple;
+  text-decoration: none;
+}
+
+#content {
+  background-color: grey;
+  color: white;
+  
+  width: 75%;
+  float: right;
+
+  text-align: right;
+}
