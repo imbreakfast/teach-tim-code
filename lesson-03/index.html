@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A Tumblr Ripoff</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">A Tumblr Ripoff</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>  <!-- An undefined hash ("#") goes nowhere -->
+          <li><a href="#">About</a></li> <!-- See note below regarding `a` and `href` -->
+          <li><a href="#">Contact</a></li>  
+        </ul>
+      </nav>
+
+      <section class="posts">
+        <h1>This page contains a bunch of elements.</h1>
+        <p>(Check the source in Dev Tools or something.)</p>
+      </section>
+
+      <section class="posts">
+        <h1>A primer on positioning</h1>
+        <p>Awesome <em>A List Apart</em> articles on <strong>positioning</strong>:</p>
+        <ul>
+          <li><a href="http://www.alistapart.com/articles/css-positioning-101/">"CSS Positioning 101"</a></li>
+          <li><a href="http://www.alistapart.com/articles/css-floats-101/">"CSS Floats 101"</a></li>
+        </ul>
+      </section>
+
+      <section class="posts">
+        <h1>On ems</h1>
+        <p><a href="http://www.w3.org/WAI/GL/css2em.htm">http://www.w3.org/WAI/GL/css2em.htm</a></p>
+        <p>A good and precise explanation for the <strong>"em" relative length unit</strong> &ndash; read down to "Only use absolute length units when the physical characteristics of the output medium are know[n]".</p>
+      </section>
+
+      <section class="posts">
+        <h1>&lt;A&gt; attributes</h1>
+        <p>Lastly, <a href="http://www.w3.org/TR/2012/WD-html5-20121025/the-a-element.html#the-a-element">the <code>&lt;a&gt;</code> element does not require the <code>href</code> attribute</a>, <strong>but</strong> if you do use it, <a href="http://www.w3.org/TR/2012/WD-html5-20121025/links.html#attr-hyperlink-href"><code>href</code> <strong>must</strong> point to a valid URL</a>, and <a href="http://www.w3.org/TR/2012/WD-html5-20121025/urls.html#valid-url">an empty string (e.g., <code>href=""</code>) is <strong>not</strong> a valid URL</a>. So now I/you know.</p>
+      </section>
+
+      <section class="posts">
+        <h1>Rain</h1>
+        <img src="rain.gif" width="500" alt="Rain" />
+        <p>It's raining, man.</p>
+      </section>
+
+      <footer>
+        <p>Copyright 2012 Karl Santiago. Some rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

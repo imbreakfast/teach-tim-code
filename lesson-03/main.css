@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+
+  /* Centers block elements */
+  /* This also works: `margin: 0 auto;` */
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+#title {
+  text-align: center;
+}
+
+nav {
+  background-color: grey;
+  border-radius: 3px;
+
+  margin-bottom: 1em;
+}
+
+nav ul {
+  list-style: none; /* Removes bullets */
+  padding-left: 0;  /* Removes indentation */
+}
+
+nav li {
+  display: inline;  /* Shows list-items left-to-right */
+}
+
+nav a {
+  display: inline-block;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-shadow: 0 0 12px white;
+}
+
+.posts {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+
+  margin-bottom: 1em;
+
+  padding-left:  1em;
+  padding-right: 1em;
+}
+
+.posts img {
+  width: 100%;     /* Sets img size to the width of the block element it exists within */
+  max-width: 100%; /* Limits img size to the width of the block element it exists within */
+
+  /*
+   * A few notes:
+   * * `width` should logically go before `max-width`, otherwise `max-width` gets overriden
+   * * Setting an image width of "100%" might distort an image!!!
+   * * Setting image sizes in CSS is generally inefficient for a host of reasons ...
+   */
+}
+
+footer {
+  text-align: center;
+}
