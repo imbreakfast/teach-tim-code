@@ -2,13 +2,13 @@
   border-bottom: 1px dotted grey;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+#navigation ul {
+  list-style-type: none; /* Removes bullets */
+  padding-left: 0;       /* Removes indentation */
 }
 
-li {
-  display: inline;
+#navigation li {
+  display: inline;       /* Shows list-items left-to-right */
 }
 
 #navigation a {
