@@ -1,12 +1,10 @@
-# A collection of links that I've found useful in learning web design/development
+# Links
+A collection of links that I've found useful in learning web design/development.
+ A not-very-organized work-in-progress. More to come.
 
-A not-very-organized work-in-progress. More to come.
-
-* * *
 # Start here(?)
 * http://prework.flatironschool.com/
 
-* * *
 # Front-end development topics
 * http://alistapart.com/
 * http://css-tricks.com/
@@ -41,10 +39,8 @@ A not-very-organized work-in-progress. More to come.
 * http://nyc.hackerhours.org/
 * http://www.meetup.com/nyc-on-rails/
 
-* * *
 # Git
 * http://try.github.io/levels/1/challenges/1
 
-* * *
-# Errata
+# Miscellaneous
 * http://pinboard.in/popular/
