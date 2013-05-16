@@ -27,6 +27,7 @@ A collection of links that I've found useful in learning web design/development.
 ### Newsletters
 * http://sidebar.io/
 * http://html5weekly.com/
+* http://css-weekly.com/
 * http://web-design-weekly.com/
 * http://responsivedesignweekly.com/
 
